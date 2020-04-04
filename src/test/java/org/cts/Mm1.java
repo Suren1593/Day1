@@ -1,21 +1,18 @@
 package org.cts;
-
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-
 public class Mm1 {
+	
+	
+	private void Suren() {
+	System.out.println("SURENDAR");
+
+	}
 
 	public static void main(String[] args) {
 		
-System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\eclipse-workspace\\SeleDay1\\Drivers\\chromedriver.exe");
+		Mm1 f = new Mm1();
+		f.Suren();
 		
-		WebDriver web = new ChromeDriver();
-		
-		web.get("https://www.google.com/");
-		
-		System.out.println("Done");
-		
-		web.close();
+
 	}
 
 }
